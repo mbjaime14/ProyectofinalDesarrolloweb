@@ -1,0 +1,25 @@
+@import "../base/variables";
+
+
+@mixin center-content {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+};
+
+
+@mixin breakpoints($size) {
+    @if map-has-key($breakpoints, $size) {
+        @media (max-width: #{map-get($breakpoints, $size)}){
+          @content;
+        }
+         
+    }
+
+ }
+
+
+

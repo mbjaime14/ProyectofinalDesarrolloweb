@@ -1,0 +1,38 @@
+@import "../base/variables";
+@import "../utilities/mixins";
+
+
+
+
+ 
+.tutoriales  {
+    display: grid;
+    grid-template-columns: 2fr 2fr  ; 
+    grid-template-rows: 2fr 2fr  ;
+    overflow: auto;
+    margin: 40px 40px 40px 40px;
+    padding: auto;  
+       
+   iframe {
+    width:400px;
+    height: 400px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+}
+       
+
+.tutoriales-titulo {
+    margin:20px 20px 20px 20px;
+    ;
+}
+
+.boxtutoriales {
+    border: $link 5px solid;
+    border-radius: 25px;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    
+}
+
+}

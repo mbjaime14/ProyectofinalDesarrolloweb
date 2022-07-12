@@ -1,0 +1,46 @@
+@import "../base/variables";
+@import "../utilities/mixins";
+
+
+.boxinicio {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+ }   
+
+
+    .inicio {
+      
+      width: max-width;
+      height: 800px;
+      margin: 20px 20px 20px 30px;
+      padding: auto;
+    }
+  
+
+  .titulo {
+           
+    color: $link;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 50px;
+
+
+  }
+   
+   .text {
+    text-align:right;
+    margin-top:10px ;
+    margin-left:30px ;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding: auto;
+   }
+
+.subtitulo {
+    font-size: 40px;
+}
+
+
+
+ 

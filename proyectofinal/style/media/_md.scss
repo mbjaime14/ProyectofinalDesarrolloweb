@@ -1,0 +1,162 @@
+
+
+  
+@import "../base/variables";
+
+
+@media (max-width:768px) {
+    .inicio {
+      width: 600px;
+      height: 400px;
+    }
+    
+  
+    nav {
+      ul {
+     display:flex;
+     flex-direction: row;
+     width: 100%;
+
+      }
+     
+      .nav-link {
+        justify-content:stretch;
+        font-size: 15px;
+      }
+  
+      .navbar-brand {
+        font-size:20px;
+      }
+      
+      .dropdown-menu{
+        font-size: 15px;
+        margin: 5px 5px 5px 5px;
+      }
+    }
+  
+    
+    .imgrandom {
+      width: 600px;
+      height: 400px;
+  }
+  
+  .tutoriales  {
+  display: flex;
+  flex-direction: column;
+       
+   iframe {
+    width:500px;
+    height: 500px;
+    margin: 20px 20px 20px 20px;
+    justify-content: center;
+  }
+       
+  
+  .tutoriales-titulo {
+    margin:20px 20px 20px 20px;
+    ;
+  }
+  
+  .boxtutoriales {
+    border: $link 5px solid;
+    border-radius: 25px;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    
+  }
+  
+  
+  }
+  
+  footer {
+    background-color: $footer;
+    color: $link;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+  
+   
+  
+  }
+  .footer {
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  svg {
+  margin: 10px 10px 10px 10px;
+  }
+  
+  
+  .registrarse {
+      
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+  video {
+  width: 500px;
+  height:400px ;
+  }
+  
+    .row {
+       display: inline-block;
+    }
+  
+    .form-label {
+      color: $link;
+      font-family: 'League Gothic', sans-serif;
+      font-size: 30px;
+     }
+  
+  
+  .col-12
+  {
+    margin: 10px 10px 10px 10px;
+  }
+  }
+  
+  .contac {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  .contacto {
+  width: 600px;
+  height: 400px;
+  margin-right: 30px;
+  margin-left:10px ;
+  }
+  
+  .mb-3 {
+     color: $link;
+      font-family: 'League Gothic', sans-serif;
+      font-size: 30px;
+  }
+  }
+  
+  
+  .iniciar-sesion {
+  
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  .logo {
+    width:400px ;
+    height: 400px;
+    margin-left:40px ;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    justify-items: center;
+  }
+  
+  }
+  
+  
+  }

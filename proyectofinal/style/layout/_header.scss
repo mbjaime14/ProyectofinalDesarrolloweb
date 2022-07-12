@@ -1,0 +1,42 @@
+@import "../base/variables";
+
+
+header {
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+   
+ ul {
+
+    a {
+        
+       flex-direction: row; 
+        
+        svg {
+        
+          margin: 10px 5px 5px 10px;
+        }
+    }
+ } 
+
+
+
+.navdos {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-right: 20px;
+  margin: 10px 20px 5px 10px;
+
+  .telinicio {
+    font-size: 20px;
+
+   }
+
+
+}
+
+}
+

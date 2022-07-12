@@ -1,0 +1,75 @@
+@import "../base/variables";
+
+nav {
+   
+
+    background-image: url(../img/nav.jpg);
+     width: 100%;
+     height: 120px;
+    
+
+      ul {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: $link;
+       
+      }
+  
+
+        li {
+           list-style: none;
+           margin-top: 30px;
+           margin-bottom: 30px;
+        
+        }
+        
+        .nav-link {
+            
+            color: $link;
+            font-family: 'Caveat', cursive;
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+       
+        .navbar-brand {
+            font-family: 'Dancing Script', cursive;
+            font-size: 42px;
+            font-weight: none;
+            color: $link;
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+        } 
+
+
+        span {
+            color: $link;
+        }
+
+
+        .d-flex {
+          
+            margin-right: 10px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+       
+        .dropdown-menu {
+ 
+            background-color: $body;
+            font-family: 'Caveat', cursive;
+            font-size: 20px;
+            font-weight: bold;
+           
+            .dropdown-item {
+                background-color: $body;
+                color: $link;
+            }
+
+        }
+    }
+
